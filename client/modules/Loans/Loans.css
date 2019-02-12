@@ -1,0 +1,50 @@
+.loan {
+	display: flex;
+  border-bottom: 1px solid #aaa;
+  align-items: center;
+}
+
+.info {
+  flex-grow: 1;
+}
+
+.graph {
+  margin-bottom: 20px;
+}
+
+.filteroptions {
+  display: flex;
+  margin-bottom: 20px;
+}
+.filteroption {
+  margin: 0 10px;
+}
+
+.filterlabel, select {
+	margin-right: 10px;
+}
+.reactpaginate ul {
+    display: inline-block;
+		font-size: 1.3em;
+    /* padding-left: 15px;
+    padding-right: 15px; */
+}
+
+.reactpaginate li {
+    display: inline-block;
+		padding-top: 25px;
+		padding-bottom: 25px;
+		padding-left: 15px;
+    padding-right: 15px;
+}
+
+.reactpaginate a:focus {
+	background-color: #4286f4;
+	color: white;
+	outline: none;
+}
+
+.reactpaginate a:active {
+		background-color: #4286f4;
+		color: white;
+}
